@@ -26,7 +26,6 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DISTRITO FEDERAL<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <!-- <li><button onclick="prueba()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">prueba pressdisplay</button></li> -->
                 <li><button onclick="publimetro()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">PUBLIMETRO</button></li>
                 <li><button onclick="dia()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EL DIA</button></li>
                 <li><button onclick="impacto()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">IMPACTO</button></li>
@@ -40,20 +39,10 @@
                 <li><button onclick="economista()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EL ECONOMISTA</button></li>
                 <li><button onclick="record()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RECORD</button></li>
                 <li><button onclick="excelsior()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EXCELSIOR</button></li>
-                <li><button onclick="diarioDeMexico()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">DIARIO DE MEXICO</button></li>
-                <li><button onclick="veinticuatroHorasCdmx()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">VEINTICAUATRO HORAS CMDX</button></li>
-                <li><button onclick="masPorMas()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MAS POR MAS</button></li>
-                <li><button onclick="revistaCambio()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">REVISTA CAMBIO</button></li>
-                <li><button onclick="milenioNacional()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MILENIO NACIONAL</button></li>
-                <li><button onclick="milenioJalisco()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MILENIO JALISCO</button></li>
-                <li><button onclick="milenioMonterrey()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MILENIO MONTERREY</button></li>
-                <!--<li><button onclick="proceso()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">proceso</button></li>
 
-                <li><button onclick="primerasPlanasGallito()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">PRIMERAS PLANAS</button></li>
-                <li><button onclick="mundoExpress()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MUNDO EXPRESS</button></li>
-                <li><button onclick="forbes()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Forbes</button></li>
-                <li><button onclick="revistaAr()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Revista ar.</button></li>
-                 -->
+                <!-- <li><button onclick="revistaAr()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Revista ar.</button></li>
+                <li><button onclick="revistaCambio()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">REVISTA CAMBIO</button></li>
+                -->
               </ul>
             </li>
             <li class="dropdown">
@@ -62,11 +51,6 @@
                 <li><button onclick="crionicaJalisco()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">LA CRONICA JALISCO</button></li>
                 <li><button onclick="meridianos()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MERIDIANOS</button></li>
                 <li><button onclick="ntrGdl()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EL DIARIO DE GUADALAJARA</button></li>
-                <!-- <li><button onclick="notiarandas()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">NOTI ARANDAS</button></li>
-                <li><button onclick="am_lagos()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">am DE LAGOS DE MORENO</button></li>
-                <li><button onclick="bahia()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">TRIBUNA DE LA BAHIA</button></li>
-                -->
-
               </ul>
             </li>
             <li class="dropdown">
@@ -95,20 +79,8 @@
                 <li><button onclick="calameo()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">calameo</button></li>
                 <!--<li><button onclick="cabos()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Tribuna de los Cabos</button></li>
                 <li><button onclick="gato()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">gato</button></li>
-                <li><button onclick="vanguardia()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">vanguardia</button></li>
-                <li><button onclick="guardian()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">guardian</button></li>
-                <li><button onclick="primera_hora()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Primera Hora</button></li>
-                <li><button onclick="monitorEconomico()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MONITOR ECONOMICO</button></li>
-                <li><button onclick="laidemerida()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">la i merida</button></li>
-                <li><button onclick="elDiarioDeElPaso()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EL DIARIO DE EL PASO</button></li>
-                <li><button onclick="liberaldelsur()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Liberal del Sur</button></li>
-                <li><button onclick="diarioObjetivo()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> diario Objetivo </button></li>
-                <li><button onclick="sintesisTlaxcala()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">sintesis tlaxcala</button></li>
-                <li><button onclick="am_leon()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">am DE LEON</button></li>
-                <li><button onclick="expreso_victoria()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Expreso Victoria</button></li>
-                <li><button onclick="razon_tampico()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">La Razon Tampico</button></li>
-                <li><button onclick="expreso_matamoros()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Expreso Matamoros</button></li>
-                <li><button onclick="expreso_mante()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Expreso Mante</button></li> -->
+
+                <li><button onclick="primera_hora()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Primera Hora</button></li> -->
 
 
 
@@ -118,31 +90,27 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ESTADOS 2<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><button onclick="jornadaGuerrero()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">JORNADA GUERRERO</button></li>
-                <li><button onclick="sanluishoy()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">San Luis Hoy</button></li>
-                <li><button onclick="ecos()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">ECOS DE LA COSTA</button></li>
-                <li><button onclick="correoManzanillo()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">CORREO DE MANZANILLO</button></li>
                 <li><button onclick="horizonte_m()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">HORIZONTE DE MONTERREY</button></li>
                 <li><button onclick="jornadaAguasCalientes()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">LA JORNADA AGUASCALIENTES</button></li>
                 <li><button onclick="quintanaRooHoy()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">QUINTANA ROO HOY</button></li>
                 <li><button onclick="tabascohoy()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">TABASCO HOY</button></li>
                 <li><button onclick="fronteraTijuana()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">LA FRONTERA DE TIJUANA</button></li>
-                <li><button onclick="enfoque()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">ENFOQUE INFORMATIVO</button></li>
-                <li><button onclick="redes()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">REDES DEL SUR</button></li>
                 <li><button onclick="diariodecolima()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Diario de Colima</button></li>
                 <li><button onclick="noticiaschiapas()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">NOTICIAS chiapas</button></li>
                 <li><button onclick="noticiasIstmo()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">NOTICIAS ISTMO</button></li>
                 <li><button onclick="noticiasCuenca()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">NOTICIAS CUENCA</button></li>
                 <li><button onclick="noticiasOaxaca()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">NOTICIAS OAXACA</button></li>
                 <li><button onclick="vozM()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">La Voz de Michoacan</button></li>
-                <li><button onclick="cronicaMexicali()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">La Cronica de Mexicali</button></li>
                 <li><button onclick="presente()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">PRESENTE</button></li>
-                <!--
-
-                <li><button onclick="despertar()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Despertar</button></li>
-                <li><button onclick="capitalMedia()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">capitalMedia</button></li>
-
-
                 <li><button onclick="lider()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Lider Informativo</button></li>
+                <li><button onclick="despertar()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Despertar</button></li>
+                <!--
+                <li><button onclick="sanluishoy()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">San Luis Hoy</button></li>
+                <li><button onclick="ecos()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">ECOS DE LA COSTA</button></li>
+                <li><button onclick="correoManzanillo()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">CORREO DE MANZANILLO</button></li>
+                <li><button onclick="enfoque()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">ENFOQUE INFORMATIVO</button></li>
+                <li><button onclick="redes()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">REDES DEL SUR</button></li>
+                <li><button onclick="cronicaMexicali()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">La Cronica de Mexicali</button></li>
                 -->
                 </ul>
             </li>
@@ -329,7 +297,7 @@
                '01' => "enero",
                '02' => "febrero",
                '03' => "marzo",
-               '04' => "abril",
+               '04' => "Mayo",
                '05' => "mayo",
                '06' => "junio",
                '07' => "julio",
@@ -456,14 +424,14 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/PE3g4zdPvtxsgdzK/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/JJMDkPSHv3MhMaHE/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
 
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/PE3g4zdPvtxsgdzK/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/JJMDkPSHv3MhMaHE/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/PE3g4zdPvtxsgdzK/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/JJMDkPSHv3MhMaHE/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -475,13 +443,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -493,13 +461,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -511,13 +479,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//PE3g4zdPvtxsgdzK/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//JJMDkPSHv3MhMaHE/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -598,7 +566,7 @@
           document.getElementById("caja").innerHTML="<?php
           for ($pag=1; $pag <=100 ; $pag++) {
                                                             // SE CAMBIA LA SEGUNDA
-            echo "<a href='http://online.fliphtml5.com/jkdq/hfkk/files/large/".$pag.".jpg' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+            echo "<a href='http://online.fliphtml5.com/jkdq/qyei/files/large/".$pag.".jpg' target='_blank' >pag,".$pag."</a>" ."</br>" ;
          }
       ?>"; }
 
@@ -962,9 +930,10 @@
       function lider(){
           document.getElementById("caja").innerHTML="<?php
       echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Lider.pdf' target='_blank'>Lider Informativo</a>" ."</br>" ;
-      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Meta.pdf' target='_blank'>Lider Informativo</a>" ."</br>" ;
-      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Pais.pdf' target='_blank'>Lider Informativo</a>" ."</br>" ;
-      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Show.pdf' target='_blank'>Lider Informativo</a>" ."</br>" ;
+      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Orbe.pdf' target='_blank'>ORBE</a>" ."</br>" ;
+      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Meta.pdf' target='_blank'>META</a>" ."</br>" ;
+      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Pais.pdf' target='_blank'>PAIS</a>" ."</br>" ;
+      echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/Show.pdf' target='_blank'>SHOW</a>" ."</br>" ;
       echo "<a href='http://archivos.lider-informativo.com/hemeroteca/".$año."/".$mes."/".$dia."/grafico%20".$dia.".pdf' target='_blank'>Grafico</a>" ."</br>" ;
       ?>"; }
 
@@ -1258,7 +1227,7 @@
           document.getElementById("caja").innerHTML="<?php
 
       for ($pag=1; $pag <=40 ; $pag++) {
-        echo "<a href='https://img.yumpu.com/62637342/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
+        echo "<a href='https://img.yumpu.com/62649626/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
@@ -1272,8 +1241,8 @@
 
       function revistaCambio(){
           document.getElementById("caja").innerHTML="<?php
-      for ($pag=52836; $pag <=52836 ; $pag++) {
-        echo "<a href='https://p88.capitalmedia.mx/ediciones/1183-CapitalCoahuila/".$pag."/html5/".$pag.".pdf'>".$pag."</a>" ."</br>" ;
+      for ($pag=52932; $pag <=53031 ; $pag++) {
+        echo "<a href='https://p88.capitalmedia.mx/ediciones/1158-ReporteIndigoDF/".$pag."/html5/".$pag.".pdf'>".$pag."</a>" ."</br>" ;
 
       }
       ?>"; }
@@ -1939,7 +1908,6 @@
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_publimetro.pdf' target='_blank' >DF</a>" ."</br>" ;
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_guadalajara.pdf' target='_blank' >GDL</a>" ."</br>" ;
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_monterrey.pdf' target='_blank' >MTY</a>" ."</br>" ;
-          // echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_qroo.pdf' target='_blank' >QROO</a>" ."</br>" ;
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_morelia.pdf' target='_blank' >MORELIA</a>" ."</br>" ;
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_leon.pdf' target='_blank' >LEON</a>" ."</br>" ;
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_puebla.pdf' target='_blank' >PUEBLA</a>" ."</br>" ;
@@ -2082,28 +2050,28 @@
 
           for ($pag=1; $pag <=12 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Abril/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_0".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_0".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
       }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Abril/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=8 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Abril/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Abril/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=4 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Abril/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Abril/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
       }
 

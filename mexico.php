@@ -234,7 +234,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 10<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 11<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!-- CONTENIDO -->
                 <li><button onclick="pressdisplayeabk()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Perfiles Culiacán</button></li>
@@ -255,7 +255,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 10<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 12<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!-- CONTENIDO -->
                 <li><button onclick="pressdisplayed36()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Publimetro Guadalajara</button></li>
@@ -276,7 +276,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 10<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 13<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!-- CONTENIDO -->
                 <li><button onclick="pressdisplay34lt()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Tabasco Hoy</button></li>
@@ -297,7 +297,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 10<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 14<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!-- CONTENIDO -->
                 <li><button onclick="pressdisplaye876()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">music:life magazine méxico</button></li>
@@ -1219,7 +1219,7 @@
         function pressdisplayeb24(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb242019042900000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb242019051300000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayee60(){

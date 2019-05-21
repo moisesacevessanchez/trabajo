@@ -1423,7 +1423,7 @@
         function pressdisplayed53(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=ed532019041600000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=ed532019052100000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayed82(){

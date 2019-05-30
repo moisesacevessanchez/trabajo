@@ -283,6 +283,7 @@
 
 
 
+
           </div><!--/.nav-collapse -->
         </div>
     </nav>
@@ -434,14 +435,14 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/6YK5hV2qnXn3kfSD/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/2ZMjcjh9zVhz5rK4/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
 
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/6YK5hV2qnXn3kfSD/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/2ZMjcjh9zVhz5rK4/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/6YK5hV2qnXn3kfSD/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/2ZMjcjh9zVhz5rK4/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -453,13 +454,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -471,13 +472,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -489,13 +490,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//6YK5hV2qnXn3kfSD/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//2ZMjcjh9zVhz5rK4/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -523,8 +524,8 @@
           document.getElementById("caja").innerHTML="<?php
           echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34qk".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
           echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34qm".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
-          // echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34qn".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
-          // echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34qp".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+          echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34qn".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+          echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34qp".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
           // echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34np".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
           //echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34pb".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
           echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34pd".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
@@ -928,15 +929,16 @@
       ?>"; }
        function criticaJalisco(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/05/CRITICA648.jpg' target='_blank' >pag1</a>" ."</br>" ;
+          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/05/CRITICA649.jpg' target='_blank' >pag1</a>" ."</br>" ;
       for ($pag=2; $pag <=30 ; $pag++) {
-          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/05/CRITICA648".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/05/CRITICA649".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
        function criticaPolitica(){
           document.getElementById("caja").innerHTML="<?php
           echo "<a href='https://mexicopublica.com/wp-content/uploads/2019/05/NACIONAL-268.jpg' target='_blank' >pag1</a>" ."</br>" ;
+
       for ($pag=2; $pag <=30 ; $pag++) {
           echo "<a href='https://mexicopublica.com/wp-content/uploads/2019/05/NACIONAL-268".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
@@ -1258,7 +1260,7 @@
           document.getElementById("caja").innerHTML="<?php
 
       for ($pag=1; $pag <=40 ; $pag++) {
-        echo "<a href='https://img.yumpu.com/62666298/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
+        echo "<a href='https://img.yumpu.com/62678231/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 

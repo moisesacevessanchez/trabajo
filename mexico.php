@@ -1219,7 +1219,7 @@
         function pressdisplayeb24(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb242019051300000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb242019061000000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayee60(){

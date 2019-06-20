@@ -52,11 +52,13 @@
               <ul class="dropdown-menu">
                 <li><button onclick="crionicaJalisco()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">LA CRONICA JALISCO</button></li>
                 <li><button onclick="meridianos()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MERIDIANOS</button></li>
+                <li><button onclick="elJalisciense()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EL JALISCIENSE</button></li>
                 <li><button onclick="ntrGdl()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">EL DIARIO DE GUADALAJARA</button></li>
                 <li><button onclick="criticaJalisco()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Critica</button></li>
                 <li><button onclick="jaliscoPublica()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">jaliscoPublica</button></li>
               </ul>
             </li>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ESTADOS 1<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -91,6 +93,7 @@
 
                 </ul>
             </li>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ESTADOS 2<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -576,7 +579,7 @@
       function abcDeMonterrey(){
           document.getElementById("caja").innerHTML="<?php
           for ($pag=1; $pag <=100 ; $pag++) {
-            echo "<a href='https://online.fliphtml5.com/hddh/jbcq/files/large/".$pag.".jpg' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+            echo "<a href='https://online.fliphtml5.com/hddh/qyzj/files/large/".$pag.".jpg' target='_blank' >pag,".$pag."</a>" ."</br>" ;
          }
       ?>"; }
 
@@ -930,17 +933,17 @@
       ?>"; }
        function criticaJalisco(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/05/CRITICA649.jpg' target='_blank' >pag1</a>" ."</br>" ;
+          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/06/CRITICA.jpg' target='_blank' >pag1</a>" ."</br>" ;
       for ($pag=2; $pag <=30 ; $pag++) {
-          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/05/CRITICA649".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/06/CRITICA".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
        function jaliscoPublica(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/05/jalisco-27.jpg' target='_blank' >pag1</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/06/jalisco9-2.jpg' target='_blank' >pag1</a>" ."</br>" ;
       for ($pag=2; $pag <=30 ; $pag++) {
-          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/05/jalisco".$pag."-27.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/06/jalisco".$pag."-7.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
@@ -958,6 +961,15 @@
           for ($pag=1; $pag <=32 ; $pag++)
             {
                 echo "<a href='http://www.redesdelsur.com.mx/versionimpresa/2019/diciembre/dic".$dia."/files/mobile/".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+            }
+
+
+      ?>"; }
+      function elJalisciense(){
+          document.getElementById("caja").innerHTML="<?php
+          for ($pag=1; $pag <=32 ; $pag++)
+            {
+                echo "<a href='https://eljalisciense.com/wp-content/uploads/digital/".$pag.".jpg?edicion=03' target='_blank' >pag".$pag."</a>" ."</br>" ;
             }
 
 
@@ -1269,7 +1281,7 @@
           document.getElementById("caja").innerHTML="<?php
 
       for ($pag=1; $pag <=40 ; $pag++) {
-        echo "<a href='https://img.yumpu.com/62682894/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
+        echo "<a href='https://img.yumpu.com/62706387/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
@@ -2205,19 +2217,19 @@
 
       for ($pag=1; $pag <=8 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Junio/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Junio/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=4 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Junio/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Mayo/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Junio/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
       }
 

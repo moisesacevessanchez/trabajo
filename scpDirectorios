@@ -86,7 +86,6 @@ scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Bitacora/2019-07-22" ; rm *.p
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/blasting\\ news/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Bravo\\ de\\ Matamoros/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Buzos/2019-07-22" ; rm *.pdf
-scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/.cache/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Cambio/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Cambio\\ 21/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Cambio\\ de\\ Michoacan/2019-07-22" ; rm *.pdf
@@ -133,10 +132,8 @@ scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/CodigoQro/2019-07-22" ; rm *.
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Codigo\\ Topo/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Colima\\ Al\\ Dia/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/colimanoticias/2019-07-22" ; rm *.pdf
-scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/.composer/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Computerworld\\ Mexico/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Conciencia\\ Publica/2019-07-22" ; rm *.pdf
-scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/.config/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Contacto\\ Hoy/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Contexto\\ de\\ Durango/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Continuamos/2019-07-22" ; rm *.pdf
@@ -593,7 +590,6 @@ scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Gente\\ y\\ la\\ Actualidad/2
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Gente\\ y\\ negocios/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Gente\\ y\\ poder/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Global\\ Semanario\\ Regional/2019-07-22" ; rm *.pdf
-scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/.gnupg/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/GOO/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/GrÃ¡fico\\ de\\ Xalapa/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Grafico\\ Sur/2019-07-22" ; rm *.pdf
@@ -1091,7 +1087,6 @@ scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Sonora\\ Hoy.com/2019-07-22" 
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/SOPITAS.COM/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Springfield\\ News\\ Sun/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Springfield\\ News\\ Sun/2019-07-22" ; rm *.pdf
-scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/.ssh/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Stabroek\\ News/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Starkville\\ Daily\\ News/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Star\\ Tribune/2019-07-22" ; rm *.pdf
@@ -1105,7 +1100,6 @@ scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Talla\\ Politica/2019-07-22" 
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Tampa\\ Bay\\ Times/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/telediario/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/TelePrensa/2019-07-22" ; rm *.pdf
-scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/.TemporaryItems/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Termometro\\ Economico/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/Termometro\\ en\\ linea/2019-07-22" ; rm *.pdf
 scp *.pdf edgar@192.168.3.154:"/var/www/Periodicos/TESTIGOS/2019-07-22" ; rm *.pdf

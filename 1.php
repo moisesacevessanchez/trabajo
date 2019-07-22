@@ -949,9 +949,9 @@
 
        function jaliscoPublica(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/07/jalisco-9.jpg' target='_blank' >pag1</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/07/jalisco-19.jpg' target='_blank' >pag1</a>" ."</br>" ;
       for ($pag=2; $pag <=50 ; $pag++) {
-          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/07/jalisco".$pag."-8.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/07/jalisco".$pag."-14.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 

@@ -178,6 +178,7 @@
                 <li><button onclick="pressdisplaye908()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Excelsior (México)</button></li>
                 <li><button onclick="pressdisplaye894()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Expansion (México)</button></li>
                 <li><button onclick="pressdisplaye652()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Food and Travel (México)</button></li>
+                <li><button onclick="pressdisplay9igb()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">FORBES</button></li>
                 <li><button onclick="pressdisplayeb68()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">GQ (México)</button></li>
                 <li><button onclick="pressdisplayebdn()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">GQ Motors</button></li>
                 <li><button onclick="pressdisplayebdm()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">GQ Style (Mexico)</button></li>
@@ -366,14 +367,14 @@
         ?>"; }
         function pressdisplayed52(){
             document.getElementById("caja").innerHTML="<?php
-            for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=ed52".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+            for ($pag=100; $pag <=200 ; $pag++) {
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=ed522019070100000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayeb82(){
             document.getElementById("caja").innerHTML="<?php
-            for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb82".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+            for ($pag=101; $pag <=180 ; $pag++) {
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb822019072900000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayebdp(){
@@ -1006,6 +1007,12 @@
               echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=e652".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
+        function pressdisplay9igb(){
+            document.getElementById("caja").innerHTML="<?php
+            for ($pag=1; $pag <=150 ; $pag++) {
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=9igb2019070100000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+           }
+        ?>"; }
         function pressdisplayeb68(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=100 ; $pag++) {
@@ -1044,8 +1051,8 @@
         ?>"; }
         function pressdisplayea90(){
             document.getElementById("caja").innerHTML="<?php
-            for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=ea90".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+            for ($pag=1; $pag <=300 ; $pag++) {
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=ea902019070400000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplay34mf(){
@@ -1219,7 +1226,7 @@
         function pressdisplayeb24(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=100 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb242019061000000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=eb242019081200000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayee60(){

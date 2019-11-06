@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
   </head>
   <body>
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -42,6 +43,7 @@
                 <li><button onclick="milenioNacional()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">MILENIO NACIONAL</button></li>
                 <li><button onclick="criticaPolitica()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Critica Politica</button></li>
                 <li><button onclick="ciclo()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">un pinche for</button></li>
+                <li><button onclick="milenios()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">milenios</button></li>
 
                 <!-- <li><button onclick="revistaAr()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Revista ar.</button></li>
                 <li><button onclick="revistaCambio()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">REVISTA CAMBIO</button></li>
@@ -257,6 +259,7 @@
                 <li><button onclick="pressdisplayFrancia()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">pressdisplayFrancia</button></li>
                 <li><button onclick="pressdisplayHolanda()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">pressdisplayHolanda</button></li>
                 <li><button onclick="listaDePaises()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">listaDePaises</button></li>
+                <li><button onclick="portadasInternacionales()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">PORTADAS</button></li>
                 <!-- <li><button onclick="journal_news()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Journal News</button></li>
                 <li><button onclick="newYork()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">The New York Post</button></li>
                 <li><button onclick="citicenvoice()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">The Citizens' Voice</button></li>
@@ -282,7 +285,12 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">porno<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><button onclick="porno()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">porno</button></li>
+                <li><button onclick="theWashingtonPost()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">The Washington Post Sunday</button></li>
+                <li><button onclick="theNewsTimes()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">The News Times</button></li>
+                <li><button onclick="theGuardian()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">The Guardian</button></li>
+                <li><button onclick="laOpinion()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">La Opinion</button></li>
+                <li><button onclick="miamiGerald()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Miami Gerald</button></li>
+
             </ul>
             </li>
 
@@ -332,15 +340,38 @@
               'Saturday' => "Sabado",
               'Sunday' => "Domingo",
           );
-
-
-
         ?>
-
-       function capital(){
+        function theWashingtonPost(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='https://script.google.com/macros/s/AKfycbzzQ8V2LfohYLRw62s-A_u1zTyM6Ywqbp_9zqDj8cV94RFYuGQH/exec' target='_blank' > Capital Media </a>" ."</br>" ;
+          for ($pag=1; $pag <=100 ; $pag++) {
+            echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1047".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+          }
           ?>"; }
+        function theGuardian(){
+          document.getElementById("caja").innerHTML="<?php
+          for ($pag=1; $pag <=100 ; $pag++) {
+            echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=9wap".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+          }
+          ?>"; }
+        function laOpinion(){
+          document.getElementById("caja").innerHTML="<?php
+          for ($pag=1; $pag <=100 ; $pag++) {
+            echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=2078".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+          }
+          ?>"; }
+        function miamiGerald(){
+          document.getElementById("caja").innerHTML="<?php
+          for ($pag=1; $pag <=100 ; $pag++) {
+            echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1023".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+          }
+          ?>"; }
+
+        function theNewsTimes(){
+          document.getElementById("caja").innerHTML="<?php
+          for ($pag=1; $pag <=100 ; $pag++) {
+            echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=9fgu".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+          }
+          ?>"; }      
 
           function elPais(){
           document.getElementById("caja").innerHTML="<?php
@@ -411,8 +442,8 @@
 
        function ciclo(){
           document.getElementById("caja").innerHTML="<?php
-        for ($pag=1; $pag <=48 ; $pag++) {
-             echo "<a href='https://online.fliphtml5.com/fjoli/knql/files/large/".$pag.".jpg?1561969706' target='_blank'>pag".$pag."</a>" ."</br>" ;
+        for ($pag=54583; $pag <=54683 ; $pag++) {
+             echo "<a href='https://p88.capitalmedia.mx/ediciones/1183-CapitalCoahuila/".$pag."/html5/".$pag.".pdf'>".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
@@ -447,14 +478,14 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/b2S2USc44TjXnHc9/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/dFDzXBng7RTXx5B2/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
 
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/b2S2USc44TjXnHc9/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/dFDzXBng7RTXx5B2/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/b2S2USc44TjXnHc9/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/dFDzXBng7RTXx5B2/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -466,13 +497,13 @@
 
           for ($pag=1; $pag <=80 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//b2S2USc44TjXnHc9/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//dFDzXBng7RTXx5B2/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//b2S2USc44TjXnHc9/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//dFDzXBng7RTXx5B2/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//b2S2USc44TjXnHc9/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//dFDzXBng7RTXx5B2/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -484,13 +515,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//b2S2USc44TjXnHc9/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//b2S2USc44TjXnHc9/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//b2S2USc44TjXnHc9/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -502,13 +533,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//b2S2USc44TjXnHc9/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//b2S2USc44TjXnHc9/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//b2S2USc44TjXnHc9/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -580,8 +611,16 @@
 
       function elSolDeMexico(){
           document.getElementById("caja").innerHTML="<?php
-          for ($pag=1; $pag <=100 ; $pag++) {
+          for ($pag=1; $pag <=200 ; $pag++) {
             echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34ns".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+         }
+      ?>"; }
+
+
+      function milenios(){
+          document.getElementById("caja").innerHTML="<?php
+          for ($pag=1; $pag <=9 ; $pag++) {
+            echo "<a href='https://www.milenio.com/impreso#details?date=".$año."-".$mes."-".$dia."&id=10".$pag."&edition=".$pag."&ratio=newspaper&ratiow=766&ratioh=1077&ref=edi' target='_blank' >pag,".$pag."</a>" ."</br>" ;
          }
       ?>"; }
       function abcDeMonterrey(){
@@ -595,7 +634,7 @@
           document.getElementById("caja").innerHTML="<?php
           for ($pag=1; $pag <=100 ; $pag++) {
                                                             // SE CAMBIA LA SEGUNDA
-            echo "<a href='http://online.fliphtml5.com/jkdq/rlltW/files/large/".$pag.".jpg' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+            echo "<a href='http://online.fliphtml5.com/jkdq/mxqi/files/large/".$pag.".jpg' target='_blank' >pag,".$pag."</a>" ."</br>" ;
          }
       ?>"; }
 
@@ -943,15 +982,15 @@
           document.getElementById("caja").innerHTML="<?php
           echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/06/CRITICA.jpg' target='_blank' >pag1</a>" ."</br>" ;
       for ($pag=2; $pag <=30 ; $pag++) {
-          echo "<a href='https://criticajalisco.com/wp-content/uploads/sites/2/2019/06/CRITICA".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/08/JALISCO-".$pag."-2.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
        function jaliscoPublica(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/07/jalisco-19.jpg' target='_blank' >pag1</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/08/JALISCO-1-6.jpg' target='_blank' >pag1</a>" ."</br>" ;
       for ($pag=2; $pag <=50 ; $pag++) {
-          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/07/jalisco".$pag."-14.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          echo "<a href='http://criticajalisco.com/wp-content/uploads/sites/2/2019/08/JALISCO-".$pag."-3.jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
@@ -1289,7 +1328,7 @@
           document.getElementById("caja").innerHTML="<?php
 
       for ($pag=1; $pag <=40 ; $pag++) {
-        echo "<a href='https://img.yumpu.com/62710299/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
+        echo "<a href='https://img.yumpu.com/62843008/".$pag."/3840x2160/' target='_blank' >YUMPU".$pag."</a>" ."</br>" ;
       }
       ?>"; }
 
@@ -1486,8 +1525,6 @@
           echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/transporte/".$año."/transporte".$dia."".$mes."19.pdf&var=1' target='_blank' > TRASPORTE </a>" ."</br>" ;
           echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/prevision/".$año."/prevision".$dia."".$mes."19.pdf&var=1' target='_blank' > TRASPORTE </a>" ."</br>" ;
           echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/reporte_especial/".$año."/respecial".$dia."".$mes."19.pdf&var=1' target='_blank' > REPORTE </a>" ."</br>" ;
-
-
           ?>"; }
 
           function enfoque(){
@@ -1744,8 +1781,8 @@
 
           document.getElementById("caja").innerHTML="<?php
 
-          for ($pag=1; $pag <=50 ; $pag++) {
-        echo "<a href='https://p.calameoassets.com/190212185201-78c3961b332e49329a41e788ffeae127/p".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+          for ($pag=1; $pag <=20 ; $pag++) {
+        echo "<a href='https://p.calameoassets.com/190902052425-f204055d47297ecc0d023a5a4544112f/p".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
         }
       ?>"; }
 
@@ -1975,109 +2012,7 @@
           echo "<a href='https://rm.metrolatam.com/pdf/".$año."/".$mes."/".$dia."/".$año."".$mes."".$dia."_merida.pdf' target='_blank' >MERIDA</a>" ."</br>" ;
           ?>"; }
 
-          function porno(){
-          document.getElementById("caja").innerHTML="<?php
-          echo "<a href='http://xvideos.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://xhamster.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://xnxx.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://pornhub.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://redtube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://youporn.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://snapdo.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://livejasmin.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://youjizz.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://tube8.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://dmm.co.jp' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://cam4.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://hardsextube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://e-hentai.org' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://beeg.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://2ch.net' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://kickass.to' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://myfreecams.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://imagefap.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://chaturbate.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://4chan.org' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://drtuber.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://adnxs.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://webalta.ru' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://abril.com.br' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://lxxx.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://largeporntube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://adultfriendfinder.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://porn.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://perfectgirls.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://xtube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://nuvid.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://nudevista.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://video-one.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://porntube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://bravotube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://yourlust.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://fucked-tube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://spankwire.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://adam4adam.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://motherless.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://pornerbros.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://batepapo.uol.com.br' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://4tube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://sunporno.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://eroprofile.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://say-move.org' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://streamcloud.eu' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://pornmd.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://keezmovies.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://h2porn.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://contenko.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://xhamstercams.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://pornhublive.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://ryushare.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://alphaporno.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://anysex.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://adult-empire.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://brazzers.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://sambaporno.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://claro-search.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://tubegalore.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://videosexarchive.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://exhentai.org' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://tnaflix.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://redtubelive.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://vporn.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://fakku.net' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://anitube.se' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://pornoxo.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://freeones.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://youjizzlive.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://petardas.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://woozworld.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://literotica.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://dojki.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://manhunt.net' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://ashemaletube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://ultrasurf.us' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://gayromeo.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://liveinternet.ru' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://roulettebotplus.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://pornsharía.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://rarbg.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://extremetube.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://dmm.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://juicyads.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://hellporn.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://gonzoxxxmovies.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://cerdas.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://slutload.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://dafiti.com.br' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://exposedwebcams.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://Dlsite.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://cliphunter.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://xdating.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://asg.to' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://super.cz' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://ah-me.com' target='_blank' >click</a>" ."</br>" ;
-          echo "<a href='http://fapdu.com' target='_blank' >click</a>" ."</br>" ;
-          ?>"; }
+
 
 
           function sintesis(){
@@ -2216,28 +2151,28 @@
 
           for ($pag=1; $pag <=12 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Julio/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_0".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_0".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
       }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Julio/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=8 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Julio/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Julio/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=4 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Julio/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Julio/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
       }
 
@@ -2295,18 +2230,19 @@
         echo "<a href='http://www.launion.com.mx/images/stories/portadas/periodico.pdf' target='_blank' >pdf</a>" ."</br>" ;
         ?>"; }
 
-        function primerasPlanasGallito(){
+        function portadasInternacionales(){
         document.getElementById("caja").innerHTML="<?php
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20Informador/".$año."-".$mes."-".$dia."/A_1.pdf' target='_blank' >pdf</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20Mural/".$año."-".$mes."-".$dia."/A_1.pdf' target='_blank' >pdf</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20milenio%20Guadalajara/".$año."-".$mes."-".$dia."/1_A.pdf#view=fit&scrollbar=0' target='_blank' >pdf</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20Occidental/".$año."-".$mes."-".$dia."/1_A.pdf#view=fit&scrollbar=0' target='_blank' >pdf</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20Diario%20de%20Guadalajara/2019-07-02/1_A.pdf#view=fit&scrollbar=0' target='_blank' >pdf</a>" ."</br>" ;
-        echo "<a href='//UBUNTU/Periodicos/Meridiano de Vallarta/2019-07-02/A_1.pdf' target='_blank' >aaaa</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/La%20Cronica%20Jalisco/2019-07-02/1_A.pdf' target='_blank' >pdf</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20Universal/2019-07-02/A_1.pdf' target='_blank' >paadf</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/El%20Reforma/2019-07-02/A_1.pdf' target='_blank' >pd00f</a>" ."</br>" ;
-        echo "<a href='http://192.168.3.154/siscap.la/public/Periodicos/Excelsior/2019-07-02/A_1.pdf' target='_blank' >pd00f</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1156".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1055".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1245".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=3190".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=3035".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=3021".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1038".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=1000".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=2526".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=2521".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
+        echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=2862".$date."00000000001001&page=1&paper=A3' target='_blank' >pag,1</a>" ."</br>" ;
         ?>"; }
 
 

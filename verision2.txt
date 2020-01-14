@@ -1,0 +1,123 @@
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/MOISES"
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ DF/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroDF ; mv * ../../Desktop/Borrar/PublimetroDF
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Guadalajara/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroGuadalajara ; mv * ../../Desktop/Borrar/PublimetroGuadalajara
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Leon/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroLeon ; mv * ../../Desktop/Borrar/PublimetroLeon
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Merida/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroMerida ; mv * ../../Desktop/Borrar/PublimetroMerida
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Monterrey/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroMonterrey ; mv * ../../Desktop/Borrar/PublimetroMonterrey
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Morelia/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroMorelia ; mv * ../../Desktop/Borrar/PublimetroMorelia
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Puebla/2020-01-13" ; mkdir ../../Desktop/Borrar/PublimetroPuebla ; mv * ../../Desktop/Borrar/PublimetroPuebla
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Reforma/2020-01-13" ; mkdir ../../Desktop/Borrar/ElReforma ; mv * ../../Desktop/Borrar/ElReforma
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Mural/2020-01-13" ; mkdir ../../Desktop/Borrar//ElMural ; mv * ../../Desktop/Borrar//ElMural
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Norte/2020-01-13" ; mkdir ../../Desktop/Borrar//ElNorte ; mv * ../../Desktop/Borrar//ElNorte
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Ecos\\ de\\ la\\ Costa/2020-01-13" ; mkdir ../../Desktop/Borrar/EcosdelaCosta ; mv * ../../Desktop/Borrar/EcosdelaCosta
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Grafico/2020-01-13" ; mkdir ../../Desktop/Borrar/ElGrafico ; mv * ../../Desktop/Borrar/ElGrafico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Universal/2020-01-13" ; mkdir ../../Desktop/Borrar/ElUniversal ; mv * ../../Desktop/Borrar/ElUniversal
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ universal\\ queretaro/2020-01-13" ; mkdir ../../Desktop/Borrar/Eluniversalqueretaro ; mv * ../../Desktop/Borrar/Eluniversalqueretaro
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Mas\\ por\\ mas/2020-01-13" ; mkdir ../../Desktop/Borrar/Maspormas ; mv * ../../Desktop/Borrar/Maspormas
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Impacto/2020-01-13" ; mkdir ../../Desktop/Borrar//Impacto ; mv * ../../Desktop/Borrar//Impacto
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Economista/2020-01-13" ; mkdir ../../Desktop/Borrar/ElEconomista ; mv * ../../Desktop/Borrar/ElEconomista
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ Imagen/2020-01-13" ; mkdir ../../Desktop/Borrar/DiarioImagen ; mv * ../../Desktop/Borrar/DiarioImagen
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Reporte\\ Indigo\\ Df/2020-01-13" ; mkdir ../../Desktop/Borrar/ReporteIndigoDf ; mv * ../../Desktop/Borrar/ReporteIndigoDf
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Reporte\\ Indigo\\ Guadalajara/2020-01-13" ; mkdir ../../Desktop/Borrar/ReporteIndigoGuadalajara ; mv * ../../Desktop/Borrar/ReporteIndigoGuadalajara
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Reporte\\ Indigo\\ Monterrey/2020-01-13" ; mkdir ../../Desktop/Borrar/ReporteIndigoMonterrey ; mv * ../../Desktop/Borrar/ReporteIndigoMonterrey
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Capital\\ Coahuila/2020-01-13" ; mkdir ../../Desktop/Borrar/CapitalCoahuila ; mv * ../../Desktop/Borrar/CapitalCoahuila
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Capital\\ Edomex/2020-01-13" ; mkdir ../../Desktop/Borrar/CapitalEdomex ; mv * ../../Desktop/Borrar/CapitalEdomex
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/ContraReplica/2020-01-13" ; mkdir ../../Desktop/Borrar/ContraReplica ; mv * ../../Desktop/Borrar/ContraReplica
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Basta\\!\\/2020-01-13" ; mkdir ../../Desktop/Borrar/Basta ; mv * ../../Desktop/Borrar/Basta
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Campeche\\ Hoy/2020-01-13" ; mkdir ../../Desktop/Borrar/CampecheHoy ; mv * ../../Desktop/Borrar/CampecheHoy
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Quintana\\ Roo\\ Hoy/2020-01-13" ; mkdir ../../Desktop/Borrar/QuintanaRooHoy ; mv * ../../Desktop/Borrar/QuintanaRooHoy
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Tabasco\\ Hoy/2020-01-13" ; mkdir ../../Desktop/Borrar/TabascoHoy ; mv * ../../Desktop/Borrar/TabascoHoy
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Veinticuatro\\ Horas/2020-01-13" ; mkdir ../../Desktop/Borrar/VeinticuatroHoras ; mv * ../../Desktop/Borrar/VeinticuatroHoras
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ de\\ Mexico/2020-01-13" ; mkdir ../../Desktop/Borrar/DiariodeMexico ; mv * ../../Desktop/Borrar/DiariodeMexico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ cronica/2020-01-13" ; mkdir ../../Desktop/Borrar/Lacronica ; mv * ../../Desktop/Borrar/Lacronica
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Cronica\\ Jalisco/2020-01-13" ; mkdir ../../Desktop/Borrar/LaCronicaJalisco ; mv * ../../Desktop/Borrar/LaCronicaJalisco
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Uno\\ Mas\\ Uno/2020-01-13" ; mkdir ../../Desktop/Borrar/UnoMasUno ; mv * ../../Desktop/Borrar/UnoMasUno
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Mexico\\ Hoy/2020-01-13" ; mkdir ../../Desktop/Borrar/MexicoHoy ; mv * ../../Desktop/Borrar/MexicoHoy
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Informador/2020-01-13" ; mkdir ../../Desktop/Borrar/ElInformador ; mv * ../../Desktop/Borrar/ElInformador
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/el\\ sol\\ de\\ mexico/2020-01-13" ; mkdir ../../Desktop/Borrar/elsoldemexico ; mv * ../../Desktop/Borrar/elsoldemexico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/la\\ prensa/2020-01-13" ; mkdir ../../Desktop/Borrar/laprensa ; mv * ../../Desktop/Borrar/laprensa
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Meridiano\\ de\\ Vallarta/2020-01-13" ; mkdir ../../Desktop/Borrar/MeridianodeVallarta ; mv * ../../Desktop/Borrar/MeridianodeVallarta
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Matutino\\ Grafico/2020-01-13" ; mkdir ../../Desktop/Borrar/MatutinoGrafico ; mv * ../../Desktop/Borrar/MatutinoGrafico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Meridiano\\ de\\ Nayarit/2020-01-13" ; mkdir ../../Desktop/Borrar/MeridianodeNayarit ; mv * ../../Desktop/Borrar/MeridianodeNayarit
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Porvenir/2020-01-13" ; mkdir ../../Desktop/Borrar/ElPorvenir ; mv * ../../Desktop/Borrar/ElPorvenir
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Impulso\\ Edomex/2020-01-13" ; mkdir ../../Desktop/Borrar/ImpulsoEdomex ; mv * ../../Desktop/Borrar/ImpulsoEdomex
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Jornada\\ De\\ Mexico/2020-01-13" ; mkdir ../../Desktop/Borrar/LaJornadaDeMexico ; mv * ../../Desktop/Borrar/LaJornadaDeMexico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ jornada\\ de\\ guerrero/2020-01-13" ; mkdir ../../Desktop/Borrar/Lajornadadeguerrero ; mv * ../../Desktop/Borrar/Lajornadadeguerrero
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Contexto\\ de\\ Durango/2020-01-13" ; mkdir ../../Desktop/Borrar/ContextodeDurango ; mv * ../../Desktop/Borrar/ContextodeDurango
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Razon/2020-01-13" ; mkdir ../../Desktop/Borrar//LaRazon ; mv * ../../Desktop/Borrar//LaRazon
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Financiero/2020-01-13" ; mkdir ../../Desktop/Borrar/Financiero ; mv * ../../Desktop/Borrar/Financiero
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Diario\\ de\\ Guadalajara/2020-01-13" ; mkdir ../../Desktop/Borrar/ElDiariodeGuadalajara ; mv * ../../Desktop/Borrar/ElDiariodeGuadalajara
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ Amanecer/2020-01-13" ; mkdir ../../Desktop/Borrar/DiarioAmanecer ; mv * ../../Desktop/Borrar/DiarioAmanecer
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Siete/2020-01-13" ; mkdir ../../Desktop/Borrar//ElSiete ; mv * ../../Desktop/Borrar//ElSiete
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Heraldo\\ del\\ Estado\\ de\\ Mexico/2020-01-13" ; mkdir ../../Desktop/Borrar/HeraldodelEstadodeMexico ; mv * ../../Desktop/Borrar/HeraldodelEstadodeMexico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Jornada\\ Aguascalientes/2020-01-13" ; mkdir ../../Desktop/Borrar/LaJornadaAguascalientes ; mv * ../../Desktop/Borrar/LaJornadaAguascalientes
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Monitor\\ economico/2020-01-13" ; mkdir ../../Desktop/Borrar/Monitoreconomico ; mv * ../../Desktop/Borrar/Monitoreconomico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/CodigoQro/2020-01-13" ; mkdir ../../Desktop/Borrar/CodigoQro ; mv * ../../Desktop/Borrar/CodigoQro
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Nacional/2020-01-13" ; mkdir ../../Desktop/Borrar/ElmilenioNacional ; mv * ../../Desktop/Borrar/ElmilenioNacional
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Guadalajara/2020-01-13" ; mkdir ../../Desktop/Borrar/ElmilenioGuadalajara ; mv * ../../Desktop/Borrar/ElmilenioGuadalajara
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Milenio\\ Edomex/2020-01-13" ; mkdir ../../Desktop/Borrar/ElMilenioEdomex ; mv * ../../Desktop/Borrar/ElMilenioEdomex
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Monterrey/2020-01-13" ; mkdir ../../Desktop/Borrar/ElmilenioMonterrey ; mv * ../../Desktop/Borrar/ElmilenioMonterrey
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Hidalgo/2020-01-13" ; mkdir ../../Desktop/Borrar/ElmilenioHidalgo ; mv * ../../Desktop/Borrar/ElmilenioHidalgo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Leon/2020-01-13" ; mkdir ../../Desktop/Borrar/milenioLeon ; mv * ../../Desktop/Borrar/milenioLeon
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Puebla/2020-01-13" ; mkdir ../../Desktop/Borrar/milenioPuebla ; mv * ../../Desktop/Borrar/milenioPuebla
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Tampico/2020-01-13" ; mkdir ../../Desktop/Borrar/milenioTampico ; mv * ../../Desktop/Borrar/milenioTampico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Torreon/2020-01-13" ; mkdir ../../Desktop/Borrar/milenioTorreon ; mv * ../../Desktop/Borrar/milenioTorreon
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/San\\ luis\\ hoy/2020-01-13" ; mkdir ../../Desktop/Borrar/sanLuisHoy ; mv * ../../Desktop/Borrar/sanLuisHoy
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Excelsior/2020-01-13" ; mkdir ../../Desktop/Borrar/Excelsior ; mv * ../../Desktop/Borrar/Excelsior
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Heraldo\\ de\\ Mexico/2020-01-13" ; mkdir ../../Desktop/Borrar/ElHeraldodeMexico ; mv * ../../Desktop/Borrar/ElHeraldodeMexico
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Metro\\ df/2020-01-13" ; mkdir ../../Desktop/Borrar/Metrodf ; mv * ../../Desktop/Borrar//Metrodf
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Occidental/2020-01-13" ; mkdir ../../Desktop/Borrar/Occidental ; mv * ../../Desktop/Borrar/Occidental
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Ovaciones/2020-01-13" ; mkdir ../../Desktop/Borrar/Ovaciones ; mv * ../../Desktop/Borrar/Ovaciones
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Horizonte\\ de\\ Monterrey/2020-01-13" ; mkdir ../../Desktop/Borrar/Horizonte ; mv * ../../Desktop/Borrar/Horizonte
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ de\\ Chiapas/2020-01-13" ; mkdir ../../Desktop/Borrar/DiarioDeChiapas ; mv * ../../Desktop/Borrar/DiarioDeChiapas
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/ABC\\ de\\ Monterrey/2020-01-13" ; mkdir ../../Desktop/Borrar/abcDemonterry ; mv * ../../Desktop/Borrar/abcDemonterry
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Dia/2020-01-13" ; mkdir ../../Desktop/Borrar/elDia ; mv * ../../Desktop/Borrar/elDia
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Record\\ DF/2020-01-13" ; mkdir ../../Desktop/Borrar/Record ; mv * ../../Desktop/Borrar/Record
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Sintesis\\ de\\ Hidalgo/2020-01-13" ; mkdir ../../Desktop/Borrar/sintesisHidalgo ; mv * ../../Desktop/Borrar/sintesisHidalgo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Sintesis\\ de\\ Puebla/2020-01-13" ; mkdir ../../Desktop/Borrar/sintesisPuebla ; mv * ../../Desktop/Borrar/sintesisPuebla
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Sintesis\\ de\\ Tlaxcala/2020-01-13" ; mkdir ../../Desktop/Borrar/sintesisTlaxcala ; mv * ../../Desktop/Borrar/sintesisTlaxcala
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/elsudcaliforniano/2020-01-13" ; mkdir ../../Desktop/Borrar/Elsud ; mv * ../../Desktop/Borrar/Elsud
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ i\\ Campeche/2020-01-13" ; mkdir ../../Desktop/Borrar/laICampeche ; mv * ../../Desktop/Borrar/laICampeche
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Expreso/2020-01-13" ; mkdir ../../Desktop/Borrar/Expreso ; mv * ../../Desktop/Borrar/Expreso
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ diario\\ de\\ Chihuahua/2020-01-13" ; mkdir ../../Desktop/Borrar/elDiarioDeChihuahua ; mv * ../../Desktop/Borrar/elDiarioDeChihuahua
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/el\\ heraldo\\ de\\ chihuahua/2020-01-13" ; mkdir ../../Desktop/Borrar/elHeraldoDeChihuahua ; mv * ../../Desktop/Borrar/elHeraldoDeChihuahua
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Prensa\\ de\\ Reynosa/2020-01-13" ; mkdir ../../Desktop/Borrar/laPrensaDeReynosa ; mv * ../../Desktop/Borrar/laPrensaDeReynosa
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Rumbo\\ Nuevo/2020-01-13" ; mkdir ../../Desktop/Borrar/rumboNuevo ; mv * ../../Desktop/Borrar/rumboNuevo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ de\\ Morelos/2020-01-13" ; mkdir ../../Desktop/Borrar/diarioDeMorelos ; mv * ../../Desktop/Borrar/diarioDeMorelos
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Cronica\\ Hidalgo/2020-01-13" ; mkdir ../../Desktop/Borrar/laCronicaHidalgo ; mv * ../../Desktop/Borrar/laCronicaHidalgo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ frontera\\ de\\ tijuana/2020-01-13" ; mkdir ../../Desktop/Borrar/laFronteraDeTijuana ; mv * ../../Desktop/Borrar/laFronteraDeTijuana
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Siglo\\ de\\ Durango/2020-01-13" ; mkdir ../../Desktop/Borrar/elSigloDeDurango ; mv * ../../Desktop/Borrar/elSigloDeDurango
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Am\\ de\\ queretaro/2020-01-13" ; mkdir ../../Desktop/Borrar/amDeQueretaro ; mv * ../../Desktop/Borrar/amDeQueretaro
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Voz\\ de\\ Michoacan/2020-01-13" ; mkdir ../../Desktop/Borrar/laVozDeMichoacan ; mv * ../../Desktop/Borrar/laVozDeMichoacan
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Diario\\ de\\ Colima/2020-01-13" ; mkdir ../../Desktop/Borrar/elDiarioDeColima ; mv * ../../Desktop/Borrar/elDiarioDeColima
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Imparcial\\ del\\ Istmo/2020-01-13" ; mkdir ../../Desktop/Borrar/elImparcialDelIstmo ; mv * ../../Desktop/Borrar/elImparcialDelIstmo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Imparcial\\ de\\ Oaxaca/2020-01-13" ; mkdir ../../Desktop/Borrar/elImparcialdeOaxaca ; mv * ../../Desktop/Borrar/elImparcialdeOaxaca
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Norte\\ de\\ Zacatecas/2020-01-13" ; mkdir ../../Desktop/Borrar/ntrZacatecas ; mv * ../../Desktop/Borrar/ntrZacatecas
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Intolerancia/2020-01-13" ; mkdir ../../Desktop/Borrar/Intolerancia ; mv * ../../Desktop/Borrar/Intolerancia
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Sur/2020-01-13" ; mkdir ../../Desktop/Borrar/elSur ; mv * ../../Desktop/Borrar/elSur
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Union\\ de\\ Morelos/2020-01-13" ; mkdir ../../Desktop/Borrar/laUnionDeMorelos ; mv * ../../Desktop/Borrar/laUnionDeMorelos
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Novedades\\ de\\ Tabasco/2020-01-13" ; mkdir ../../Desktop/Borrar/novedadesDeTabasco ; mv * ../../Desktop/Borrar/novedadesDeTabasco
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Conciencia\\ Publica/2020-01-13" ; mkdir ../../Desktop/Borrar/concienciaPublica ; mv * ../../Desktop/Borrar/concienciaPublica
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Plano\\ Informativo/2020-01-13" ; mkdir ../../Desktop/Borrar/planoInformativo ; mv * ../../Desktop/Borrar/planoInformativo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Pagina\\ veinticuatro/2020-01-13" ; mkdir ../../Desktop/Borrar/paginaVeinticuatro ; mv * ../../Desktop/Borrar/paginaVeinticuatro
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Pagina\\ veinticuatro\\ Aguascalientes/2020-01-13" ; mkdir ../../Desktop/Borrar/paginaVeinticuatoAguasCalientes ; mv * ../../Desktop/Borrar/paginaVeinticuatoAguasCalientes
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Pagina\\ Veinticuatro\\ Zacatecas/2020-01-13" ; mkdir ../../Desktop/Borrar/paginaVeinticuatroZacatecas ; mv * ../../Desktop/Borrar/paginaVeinticuatroZacatecas
+
+
+
+
+
+***USA***
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/The\\ Wall\\ Street\\ journal/2020-01-13" ; mkdir ../../Desktop/Borrar/theWallStreetJournal ; mv * ../../Desktop/Borrar/theWallStreetJournal
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/The\\ San\\ Diego\\ Union\\ Tribune/2020-01-13" ; mkdir ../../Desktop/Borrar/theSanDiegoUnionTribune ; mv * ../../Desktop/Borrar/theSanDiegoUnionTribune
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/the\\ Washington\\ Post/2020-01-13" ; mkdir ../../Desktop/Borrar/theWashingtonPost ; mv * ../../Desktop/Borrar/theWashingtonPost
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/The\\ News\\ Times/2020-01-13" ; mkdir ../../Desktop/Borrar/theNewsTimes ; mv * ../../Desktop/Borrar/theNewsTimes
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/The\\ Guardian/2020-01-13" ; mkdir ../../Desktop/Borrar/theGuardian ; mv * ../../Desktop/Borrar/theGuardian
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Opinion/2020-01-13" ; mkdir ../../Desktop/Borrar/laOpinion ; mv * ../../Desktop/Borrar/laOpinion
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Miami\\ Herald/2020-01-13" ; mkdir ../../Desktop/Borrar/miamiHerald ; mv * ../../Desktop/Borrar/miamiHerald
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Diario\\ de\\ El\\ Paso/2020-01-13" ; mkdir ../../Desktop/Borrar/elDiarioDeElPaso ; mv * ../../Desktop/Borrar/elDiarioDeElPaso
+
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Vertigo/2020-01-13" ; mkdir ../../Desktop/Borrar/Vertigo ; mv * ../../Desktop/Borrar/Vertigo
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Revista\\ Impacto/2020-01-13" ; mkdir ../../Desktop/Borrar/revistaImpacto ; mv * ../../Desktop/Borrar/revistaImpacto
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ semanario/2020-01-13" ; rm *.pdf ; mkdir ../../Desktop/Borrar/semanario ; mv * ../../Desktop/Borrar/semanario
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Proceso/2020-01-13" ; rm *.pdf ; mkdir ../../Desktop/Borrar/Proceso ; mv * ../../Desktop/Borrar/Proceso

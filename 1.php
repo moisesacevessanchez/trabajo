@@ -402,7 +402,7 @@
       echo "<a href='http://issuu.com/ntrguadalajara.com/docs/".$año."-".$mes."-".$dia."' target='_blank' >NTR GDL</a>" ."</br>" ;
       echo "<a href='http://issuu.com/ntrguadalajara.com/docs/web_".$año."-".$mes."-".$dia."' target='_blank' >NTR GDL</a>" ."</br>" ;
 
-      if ($año = substr(2019, -2)) {
+      if ($año = substr(2020, -2)) {
         echo "<a href='http://issuu.com/ntrguadalajara.com/docs/web_".$dia."".$mes."".$año."/1' target='_blank' >NTR GDL</a>" ."</br>" ;
       }
       $año = date("Y");
@@ -410,8 +410,8 @@
 
       function diariodecolima(){
           document.getElementById("caja").innerHTML="<?php
-          if ($año = substr(2019, -2)) {
-            echo "<a href='https://diariodecolima.com/contenido/suscriptor/A".$dia."-".$mes."-".$año.".pdf' target='_blank' >SECCION A </a>" ."</br>" ;
+          if ($año = substr(2020, -2)) {
+            echo "<a href='https://diariodecolima.com/contenido/suscriptor/A".$dia."-".$mes."-".$año.".pdf' target='_blank' >SECCION A </a>" ."</br>" ;                           
             echo "<a href='https://diariodecolima.com/contenido/suscriptor/B".$dia."-".$mes."-".$año.".pdf' target='_blank' >SECCION B </a>" ."</br>" ;
             echo "<a href='https://diariodecolima.com/contenido/suscriptor/C".$dia."-".$mes."-".$año.".pdf' target='_blank' >SECCION C </a>" ."</br>" ;
           }
@@ -423,10 +423,10 @@
 
       for ($pag=1; $pag <=100 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='http://sitiolavoz.lavozdemichoacan.com.mx/digital/".$año."/".$mes."/".$dia."".$mes."19/files/assets/mobile/pages/page000".$pag."_i2.jpg' target='_blank' >pag M".$pag."</a>" ."</br>" ;
+          echo "<a href='http://sitiolavoz.lavozdemichoacan.com.mx/digital/".$año."/".$mes."/".$dia."".$mes."20/files/assets/mobile/pages/page000".$pag."_i2.jpg' target='_blank' >pag M".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=100) {
-          echo "<a href='http://sitiolavoz.lavozdemichoacan.com.mx/digital/".$año."/".$mes."/".$dia."".$mes."19/files/assets/mobile/pages/page00".$pag."_i2.jpg' target='_blank' >pag M".$pag."</a>" ."</br>" ;
+          echo "<a href='http://sitiolavoz.lavozdemichoacan.com.mx/digital/".$año."/".$mes."/".$dia."".$mes."20/files/assets/mobile/pages/page00".$pag."_i2.jpg' target='_blank' >pag M".$pag."</a>" ."</br>" ;
         }
 
 
@@ -478,14 +478,14 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/dFDzXBng7RTXx5B2/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/GhnWH6k9uZ8Zm42q/chiapas/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
 
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/dFDzXBng7RTXx5B2/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/GhnWH6k9uZ8Zm42q/chiapas/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/dFDzXBng7RTXx5B2/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."/GhnWH6k9uZ8Zm42q/chiapas/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -497,13 +497,13 @@
 
           for ($pag=1; $pag <=80 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//dFDzXBng7RTXx5B2/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/oaxaca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ; }
         if ($pag>=10 and $pag<=99)
         {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//dFDzXBng7RTXx5B2/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/oaxaca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//dFDzXBng7RTXx5B2/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/2019/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/oaxaca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >".$pag."</a>" ."</br>" ;
         }
 
 
@@ -515,13 +515,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/istmo/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/istmo/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/istmo/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -533,13 +533,13 @@
 
           for ($pag=1; $pag <=50 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/cuenca/files/assets/common/downloads/page000".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/cuenca/files/assets/common/downloads/page00".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
         if ($pag>=100 and $pag<=1000) {
-          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//dFDzXBng7RTXx5B2/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
+          echo "<a href='https://impresod.nvinoticias.com/".$año."/".$mes."/".$dia."//GhnWH6k9uZ8Zm42q/cuenca/files/assets/common/downloads/page0".$pag.".pdf' target='_blank' >Pagina".$pag."</a>" ."</br>" ;
         }
 
 
@@ -611,7 +611,7 @@
 
       function elSolDeMexico(){
           document.getElementById("caja").innerHTML="<?php
-          for ($pag=1; $pag <=200 ; $pag++) {
+          for ($pag=1; $pag <=400 ; $pag++) {
             echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=34ns".$date."00000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
          }
       ?>"; }
@@ -645,7 +645,7 @@
 
       function diarioDeMexico(){
           document.getElementById("caja").innerHTML="<?php
-            echo "<a href='https://www.diariodemexico.com/flowpaper/php/services/view.php?doc=MX".$dia."".$mes."19.pdf&format=pdf&page={page}&subfolder=' target='_blank' >DIARIO DE MEXICO</a>" ."</br>" ;
+            echo "<a href='https://www.diariodemexico.com/flowpaper/php/services/view.php?doc=MX".$dia."".$mes."20.pdf&format=pdf&page={page}&subfolder=' target='_blank' >DIARIO DE MEXICO</a>" ."</br>" ;
       ?>"; }
 
       function masPorMas(){
@@ -889,12 +889,12 @@
       //
       //     for ($pag=1; $pag <=140 ; $pag++) {
       //
-      //     echo "<a href='http://ediciondigital.eluniversal.com.mx/ed/eu".$dia."".$mes."19/files/pages/large/".$pag.".jpg' target='_blank' >pag ".$pag." </a>" ."</br>" ;
+      //     echo "<a href='http://ediciondigital.eluniversal.com.mx/ed/eu".$dia."".$mes."20/files/pages/large/".$pag.".jpg' target='_blank' >pag ".$pag." </a>" ."</br>" ;
       //   }
 
         for ($pag=1; $pag <=50 ; $pag++) {
 
-          echo "<a href='http://ediciondigital.eluniversalmas.com.mx/edqro/uq".$dia."".$mes."19/files/pages/large/".$pag.".jpg' target='_blank' > que ".$pag." </a>" ."</br>" ;
+          echo "<a href='http://ediciondigital.eluniversalmas.com.mx/edqro/uq".$dia."".$mes."20/files/pages/large/".$pag.".jpg' target='_blank' > que ".$pag." </a>" ."</br>" ;
         }
 
       for ($pag=1; $pag <=200 ; $pag++) {
@@ -1267,7 +1267,7 @@
 
       function impacto(){
           document.getElementById("caja").innerHTML="<?php
-           echo "<a href='http://impreso.impacto.mx/wp-content/uploads/2019/' target='_blank' >Impacto</a>" ."</br>" ;
+           echo "<a href='http://impreso.impacto.mx/wp-content/uploads/2020/' target='_blank' >Impacto</a>" ."</br>" ;
            ?>"; }
 
       function meridianos(){
@@ -1510,21 +1510,21 @@
 
           function economista(){
           document.getElementById("caja").innerHTML="<?php
-                         https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/politicos/2019/politicos020119.pdf&var=1
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/econo_global/".$año."".$mes."/economista".$dia."".$mes."19.pdf' target='_blank' >Economista</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/econo_queretaro/".$año."".$mes."/queretaro".$dia."".$mes."19.pdf&var=1' target='_blank' >Economista queretaro</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/econo_termo/".$año."".$mes."/t_economico".$dia."".$mes."19.pdf&var=1' target='_blank' > TERMOMETRO ECONOMICO </a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/politicos/".$año."/politicos".$dia."".$mes."19.pdf&var=1' target='_blank' > LOS POLITICOS </a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/autos/".$año."/autos".$dia."".$mes."19.pdf&var=1' target='_blank' >AUTOS</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/wp/".$año."/wp".$dia."".$mes."19.pdf&var=1' target='_blank' >TWP</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/credito/".$año."/uniones".$dia."".$mes."19.pdf&var=1' target='_blank' >UNIONES</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/reporte_especial/".$año."/industria".$dia."".$mes."19.pdf&var=1' target='_blank' >INDISTRIA</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/estrategias/".$año."/estrategias".$dia."".$mes."19.pdf&var=1' target='_blank' >ESTRATEGIAS</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/asofom/asofom_".$dia."".$mes."19.pdf&var=1' target='_blank' >ASOFOM</a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/viajes/".$año."/turismo".$dia."".$mes."19.pdf&var=1' target='_blank' > TURISMO </a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/transporte/".$año."/transporte".$dia."".$mes."19.pdf&var=1' target='_blank' > TRASPORTE </a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/prevision/".$año."/prevision".$dia."".$mes."19.pdf&var=1' target='_blank' > TRASPORTE </a>" ."</br>" ;
-          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/reporte_especial/".$año."/respecial".$dia."".$mes."19.pdf&var=1' target='_blank' > REPORTE </a>" ."</br>" ;
+                       //https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/politicos/2019/politicos020119.pdf&var=1
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/econo_global/".$año."".$mes."/economista".$dia."".$mes."20.pdf' target='_blank' >Economista</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/econo_queretaro/".$año."".$mes."/queretaro".$dia."".$mes."20.pdf&var=1' target='_blank' >Economista queretaro</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/econo_termo/".$año."".$mes."/t_economico".$dia."".$mes."20.pdf&var=1' target='_blank' > TERMOMETRO ECONOMICO </a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/politicos/".$año."/politicos".$dia."".$mes."20.pdf&var=1' target='_blank' > LOS POLITICOS </a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/autos/".$año."/autos".$dia."".$mes."20.pdf&var=1' target='_blank' >AUTOS</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/wp/".$año."/wp".$dia."".$mes."20.pdf&var=1' target='_blank' >TWP</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/credito/".$año."/uniones".$dia."".$mes."20.pdf&var=1' target='_blank' >UNIONES</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/reporte_especial/".$año."/industria".$dia."".$mes."20.pdf&var=1' target='_blank' >INDISTRIA</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/estrategias/".$año."/estrategias".$dia."".$mes."20.pdf&var=1' target='_blank' >ESTRATEGIAS</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/asofom/asofom_".$dia."".$mes."20.pdf&var=1' target='_blank' >ASOFOM</a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/viajes/".$año."/turismo".$dia."".$mes."20.pdf&var=1' target='_blank' > TURISMO </a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/transporte/".$año."/transporte".$dia."".$mes."20.pdf&var=1' target='_blank' > TRASPORTE </a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/prevision/".$año."/prevision".$dia."".$mes."20.pdf&var=1' target='_blank' > TRASPORTE </a>" ."</br>" ;
+          echo "<a href='https://www3.eleconomista.com.mx/download.php?file=publicaciones_pdf/especializadas/reporte_especial/".$año."/respecial".$dia."".$mes."20.pdf&var=1' target='_blank' > REPORTE </a>" ."</br>" ;
           ?>"; }
 
           function enfoque(){
@@ -1670,7 +1670,7 @@
 
         function contexto(){
         document.getElementById("caja").innerHTML="<?php
-        echo "<a href='http://contextodedurango.com.mx/hemeroteca/2019/".$meses["$mes"]."/".$dia."".$mes."".$año.".pdf' target='_blank' > contexto de durango </a>" ."</br>" ;
+        echo "<a href='http://contextodedurango.com.mx/hemeroteca/2020/".$meses["$mes"]."/".$dia."".$mes."".$año.".pdf' target='_blank' > contexto de durango </a>" ."</br>" ;
         ?>"; }
 
         function impulsoEdomex(){
@@ -1690,7 +1690,7 @@
 
         function jornadaAguasCalientes(){
         document.getElementById("caja").innerHTML="<?php
-        echo "<a href='https://issuu.com/jornadags/docs/lja".$dia."".$mes."".$año."' target='_blank' > la jornada aguascalientes </a>" ."</br>" ;
+        echo "<a href='https://issuu.com/lja.mx' target='_blank' > la jornada aguascalientes </a>" ."</br>" ;
         ?>"; }
 
 
@@ -1834,12 +1834,12 @@
 
       function porvenir(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='http://elporvenir.mx/pdfs/19/".$mes."/".$dia."/' target='_blank' >El Porvenir y El Tren</a>" ."</br>" ;
+          echo "<a href='http://elporvenir.mx/pdfs/20/".$mes."/".$dia."/' target='_blank' >El Porvenir y El Tren</a>" ."</br>" ;
       ?>"; }
 
       function elGranDiarioDeSonora(){
           document.getElementById("caja").innerHTML="<?php
-          echo "<a href='http://www.eldiariodesonora.com.mx/diarioson/archivo/".$dia."".$mes."2019/pdf/' target='_blank' >El Gran Diario de Sonora</a>" ."</br>" ;
+          echo "<a href='http://www.eldiariodesonora.com.mx/diarioson/archivo/".$dia."".$mes."2020/pdf/' target='_blank' >El Gran Diario de Sonora</a>" ."</br>" ;
       ?>"; }
 
       function amDeQueretaro(){
@@ -2151,28 +2151,28 @@
 
           for ($pag=1; $pag <=12 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_0".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."/".$mes."_Enero/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_0".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;                                                  
       }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."/".$mes."_Enero/Edi_".$dia."-".$mes."-".$año."/Primera/docs/Primera_".$pag.".pdf' target='_blank' >A.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=8 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."/".$mes."_Enero/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_0".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."/".$mes."_Enero/Edi_".$dia."-".$mes."-".$año."/Pasion/docs/Pasion_".$pag.".pdf' target='_blank' >B.".$pag."</a>" ."</br>" ;
         }
       }
 
       for ($pag=1; $pag <=4 ; $pag++) {
         if ($pag>=1 and $pag<10) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."/".$mes."_Enero/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_0".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
         if ($pag>=10 and $pag<=99) {
-          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."//".$mes."_Noviembre/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
+          echo "<a href='https://www.diariodemorelos.com/noticias/edicionImpresa/Virtual/".$año."/".$mes."_Enero/Edi_".$dia."-".$mes."-".$año."/Encuentros/docs/Encuentros_".$pag.".pdf' target='_blank' >C.".$pag."</a>" ."</br>" ;
         }
       }
 

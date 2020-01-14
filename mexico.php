@@ -27,6 +27,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTE 1<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!-- CONTENIDO -->
+                <li><button onclick="pressdisplaye445()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">PRUEBA</button></li>
                 <li><button onclick="pressdisplayed60()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">15 a 20</button></li>
                 <li><button onclick="pressdisplay9vrn()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">24 Horas - El diario sin límites</button></li>
                 <li><button onclick="pressdisplayed52()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">4 Ruedas</button></li>
@@ -353,6 +354,12 @@
 
 
         // AQUI EMPIESAN LAS FUNCIONES DE pressdisplay
+        function pressdisplaye445(){
+            document.getElementById("caja").innerHTML="<?php
+            for ($pag=1; $pag <=200 ; $pag++) {
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=e4452019110400000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+           }
+        ?>"; }
         function pressdisplayed60(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=100 ; $pag++) {
@@ -1010,7 +1017,7 @@
         function pressdisplay9igb(){
             document.getElementById("caja").innerHTML="<?php
             for ($pag=1; $pag <=150 ; $pag++) {
-              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=9igb2019070100000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
+              echo "<a href='http://www.pressdisplay.com/pressdisplay/es/services/OnlinePrintHandler.ashx?issue=9igb2019103100000000001001&page=".$pag."&paper=A3' target='_blank' >pag,".$pag."</a>" ."</br>" ;
            }
         ?>"; }
         function pressdisplayeb68(){

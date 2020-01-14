@@ -1,0 +1,63 @@
+ssh d3v1an@192.168.3.154
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/MOISES"
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ DF/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Guadalajara/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Leon/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Merida/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Monterrey/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Morelia/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Publimetro\\ Puebla/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Reforma/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Mural/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Norte/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Ecos\\ de\\ la\\ Costa/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Grafico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Universal/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ universal\\ queretaro/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Mas\\ por\\ mas/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Impacto/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Economista/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ Imagen/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Reporte\\ Indigo\\ Df/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Reporte\\ Indigo\\ Guadalajara/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Reporte\\ Indigo\\ Monterrey/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Capital\\ Coahuila/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Capital\\ Edomex/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/ContraReplica/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Basta\\!\\/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Campeche\\ Hoy/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Quintana\\ Roo\\ Hoy/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Tabasco\\ Hoy/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Veinticuatro\\ Horas/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ de\\ Mexico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ cronica/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Cronica\\ Jalisco/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Uno\\ Mas\\ Uno/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Mexico\\ Hoy/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Informador/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/el\\ sol\\ de\\ mexico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/la\\ prensa/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Meridiano\\ de\\ Vallarta/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Matutino\\ Grafico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Meridiano\\ de\\ Nayarit/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Porvenir/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Impulso\\ Edomex/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Jornada\\ De\\ Mexico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ jornada\\ de\\ guerrero/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Contexto\\ de\\ Durango/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Razon/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Financiero/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Diario\\ de\\ Guadalajara/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Diario\\ Amanecer/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Siete/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Heraldo\\ del\\ Estado\\ de\\ Mexico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/La\\ Jornada\\ Aguascalientes/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Monitor\\ economico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/CodigoQro/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Nacional/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Guadalajara/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Milenio\\ Edomex/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ milenio\\ Monterrey/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Excelsior/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/El\\ Heraldo\\ de\\ Mexico/2020-01-13" ; rm *.pdf ; rm *.jpg
+scp * d3v1an@192.168.3.154:"/media/raid/Periodicos/Metro\\ df/2020-01-13" ; rm *.pdf ; rm *.jpg

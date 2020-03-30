@@ -1782,7 +1782,7 @@
           document.getElementById("caja").innerHTML="<?php
 
           for ($pag=1; $pag <=20 ; $pag++) {
-        echo "<a href='https://p.calameoassets.com/190902052425-f204055d47297ecc0d023a5a4544112f/p".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
+        echo "<a href='https://p.calameoassets.com/200121043126-a382faf45912173a9e66d35cca40f337/p".$pag.".jpg' target='_blank' >pag".$pag."</a>" ."</br>" ;
         }
       ?>"; }
 
